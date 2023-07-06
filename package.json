@@ -2,7 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "server": "json-server --watch --port=3001 ./database/db.json",
+    "server": "npx json-server --watch --port=3001 ./database/db.json",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
